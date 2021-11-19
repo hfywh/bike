@@ -13,7 +13,7 @@ public class Mountainbike extends Bicycle {
     @Override
     public void currentState(){
     	super.currentState();
-    	//change something
+    	//change word change how to display
         System.out.println("try");
         System.out.println("Suspension(Front):"+suspensionFront+"; Suspension(Rear):"+suspensionRear);
     }
