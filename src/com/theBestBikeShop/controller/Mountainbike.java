@@ -1,4 +1,6 @@
-package com.theBestBikeShop;
+package com.theBestBikeShop.controller;
+
+import com.theBestBikeShop.model.Bicycle;
 
 public class Mountainbike extends Bicycle {
     private boolean suspensionFront;

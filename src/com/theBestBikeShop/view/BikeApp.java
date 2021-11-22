@@ -1,10 +1,12 @@
-package com.theBestBikeShop;
+package com.theBestBikeShop.view;
+
+import com.theBestBikeShop.controller.Mountainbike;
 
 public class BikeApp {
 
     public static void main(String[] args){
-        com.theBestBikeShop.Mountainbike bike1=new com.theBestBikeShop.Mountainbike(7,true,true);
-        com.theBestBikeShop.Mountainbike bike2=new com.theBestBikeShop.Mountainbike(7,false,true);
+        Mountainbike bike1=new Mountainbike(7,true,true);
+        Mountainbike bike2=new Mountainbike(7,false,true);
         bike1.currentState();
         bike2.currentState();
         System.out.println();

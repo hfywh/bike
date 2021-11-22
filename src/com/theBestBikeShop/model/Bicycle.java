@@ -1,4 +1,4 @@
-package com.theBestBikeShop;
+package com.theBestBikeShop.model;
 
 public class Bicycle {
         private int gear;
