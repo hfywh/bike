@@ -15,6 +15,7 @@ public class Mountainbike extends Bicycle {
     	super.currentState();
     	//change word change how to display
         System.out.println("try");
+        System.out.println("try");
         System.out.println("Suspension(Front):"+suspensionFront+"; Suspension(Rear):"+suspensionRear);
     }
 

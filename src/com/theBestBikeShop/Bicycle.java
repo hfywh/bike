@@ -8,6 +8,7 @@ public class Bicycle {
     public Bicycle(int gear) {
         this.gear = gear;
         this.lightstatus=false;
+        //add one line on here
     }
 
     //modify a file
